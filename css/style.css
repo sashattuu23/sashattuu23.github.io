@@ -528,8 +528,61 @@ h2.title {
 }
 
 @media (max-width: 762px) {
+    .container {
+        width: 400px;
+    }
 
-}
+    .optimization {
+        min-height: 550px;
+        padding: 70px 0 21px 0;
+    }
+
+    .optimization .optimization_text {
+        font-size: 12px;
+    }
+
+    .finish .finish_wrapper .finish_item .finish_descr {
+        margin-top: 25px;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 118%;
+        text-align: center;
+        color: #efefef;
+    }
+
+    .gift_text {
+        margin-top: 30px;
+        width: 700px;
+        font-weight: 400;
+        font-size: 27px;
+        line-height: 143%;
+        text-align: center;
+        color: #252525;
+    }
+
+    .footer .footer_wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 190px;
+    }
+
+    .more .more_img {
+        display: block;
+        margin: 0 auto;
+        margin-top: 1px;
+    }
+
+    .promo {
+        height: 800px;
+        background: url(../img/main_bg.png) center center / cover no-repeat;
+        padding: 10px 30px;
+    }
+
+    .title {
+        font-size: 27px;
+    }
+
+    }
 
 @media (max-width: 575px) {
 
